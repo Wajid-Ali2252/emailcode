@@ -1,0 +1,19 @@
+{
+    "name": "pc/mail_form",
+    "description": "simple form for mailing user data from a form",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhammad Wasil",
+            "email": "wasilmuhammad50@gmail.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.3"
+    }
+}
